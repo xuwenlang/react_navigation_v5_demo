@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "isolatedModules": true,
+        "jsx": "react-native", /* Specify JSX code generation: 'preserve', 'react-native', or 'react'. */
+        "lib": [
+            "es6"
+        ],
+        "moduleResolution": "node",
+        "module": "commonjs", /* Specify module code generation: 'none', 'commonjs', 'amd', 'system', 'umd', 'es2015', or 'ESNext'. */
+        "noEmit": true,
+        "skipLibCheck": false, /* Skip type checking of declaration files. */
+        "strict": true,
+        "target": "esnext" /* Specify ECMAScript target version: 'ES3' (default), 'ES5', 'ES2015', 'ES2016', 'ES2017','ES2018' or 'ESNEXT'. */
+    },
+    "exclude": [
+        "node_modules",
+        "babel.config.js",
+        "metro.config.js",
+        "jest.config.js"
+    ]
+}
